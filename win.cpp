@@ -55,7 +55,7 @@ void Win::calc()
     bool Ok=true; float r,a;
     QString str=inputEdit->text();
     a=str.toDouble(&Ok);
-    if (Ok)
+    if (Ok && std::isfinite(a*a))
     {
         r=a*a;
         str.setNum(r);

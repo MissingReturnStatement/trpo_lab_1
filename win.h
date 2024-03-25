@@ -9,6 +9,7 @@
 #include <QVBoxLayout>
 #include <QHBoxLayout>
 #include <QMessageBox>
+#include <cmath>
 class Win:public QWidget // класс окна
 //наследуемся от Qwidget
 {
